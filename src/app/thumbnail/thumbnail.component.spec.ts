@@ -17,7 +17,7 @@ import { AuthorizationDataService } from '../core/data/feature-authorization/aut
 @Pipe({ name: 'translate' })
 class MockTranslatePipe implements PipeTransform {
   transform(key: string): string {
-    return 'TRANSLATED ' + key + 'for PDF';
+    return 'TRANSLATED ' + key;
   }
 }
 
@@ -271,7 +271,7 @@ describe('ThumbnailComponent', () => {
         comp.ngOnChanges({});
         fixture.detectChanges();
         const image: HTMLElement = fixture.debugElement.query(By.css('img')).nativeElement;
-        expect(image.getAttribute('alt')).toBe('TRANSLATED ' + comp.alt);
+        expect(image.getAttribute('alt')).toBe('TRANSLATED ' + comp.alt) + 'for PDF';
       });
     });
 
