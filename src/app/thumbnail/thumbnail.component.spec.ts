@@ -17,7 +17,7 @@ import { AuthorizationDataService } from '../core/data/feature-authorization/aut
 @Pipe({ name: 'translate' })
 class MockTranslatePipe implements PipeTransform {
   transform(key: string): string {
-    return 'TRANSLATED ' + key + "for PDF";
+    return 'TRANSLATED ' + key + 'for PDF';
   }
 }
 
