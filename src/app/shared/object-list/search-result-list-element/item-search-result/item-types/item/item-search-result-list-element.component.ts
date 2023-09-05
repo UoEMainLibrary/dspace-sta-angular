@@ -10,8 +10,8 @@ import { getItemPageRoute } from '../../../../../../item-page/item-page-routing-
 @listableObjectComponent(ItemSearchResult, ViewMode.ListElement)
 @Component({
   selector: 'ds-item-search-result-list-element',
-  styleUrls: ['./item-search-result-list-element.component.scss'],
-  templateUrl: './item-search-result-list-element.component.html'
+  styleUrls: ['../../../../../../../themes/exams/app/shared/object-list/search-result-list-element/item-search-result/item-types/item/item-search-result-list-element.component.scss'],
+  templateUrl: '../../../../../../../themes/exams/app/shared/object-list/search-result-list-element/item-search-result/item-types/item/item-search-result-list-element.component.html'
 })
 /**
  * The component for displaying a list element for an item search result of the type Publication
