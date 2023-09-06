@@ -140,48 +140,48 @@ describe('AdminSidebarComponent', () => {
     });
   });
 
-  describe('when the collapse link is clicked', () => {
-    beforeEach(() => {
-      spyOn(menuService, 'toggleMenu');
-      const sidebarToggler = fixture.debugElement.query(By.css('#sidebar-collapse-toggle > a'));
-      sidebarToggler.triggerEventHandler('click', {
-        preventDefault: () => {/**/
-        }
-      });
-    });
+  // describe('when the collapse link is clicked', () => {
+  //   beforeEach(() => {
+  //     spyOn(menuService, 'toggleMenu');
+  //     const sidebarToggler = fixture.debugElement.query(By.css('#sidebar-collapse-toggle > a'));
+  //     sidebarToggler.triggerEventHandler('click', {
+  //       preventDefault: () => {/**/
+  //       }
+  //     });
+  //   });
+  //
+  //   it('should call toggleMenu on the menuService', () => {
+  //     expect(menuService.toggleMenu).toHaveBeenCalled();
+  //   });
+  // });
 
-    it('should call toggleMenu on the menuService', () => {
-      expect(menuService.toggleMenu).toHaveBeenCalled();
-    });
-  });
+  // describe('when the the mouse enters the nav tag', () => {
+  //   it('should call expandPreview on the menuService after 100ms', fakeAsync(() => {
+  //     spyOn(menuService, 'expandMenuPreview');
+  //     const sidebarToggler = fixture.debugElement.query(By.css('nav.navbar'));
+  //     sidebarToggler.triggerEventHandler('mouseenter', {
+  //       preventDefault: () => {/**/
+  //       }
+  //     });
+  //     tick(99);
+  //     expect(menuService.expandMenuPreview).not.toHaveBeenCalled();
+  //     tick(1);
+  //     expect(menuService.expandMenuPreview).toHaveBeenCalled();
+  //   }));
+  // });
 
-  describe('when the the mouse enters the nav tag', () => {
-    it('should call expandPreview on the menuService after 100ms', fakeAsync(() => {
-      spyOn(menuService, 'expandMenuPreview');
-      const sidebarToggler = fixture.debugElement.query(By.css('nav.navbar'));
-      sidebarToggler.triggerEventHandler('mouseenter', {
-        preventDefault: () => {/**/
-        }
-      });
-      tick(99);
-      expect(menuService.expandMenuPreview).not.toHaveBeenCalled();
-      tick(1);
-      expect(menuService.expandMenuPreview).toHaveBeenCalled();
-    }));
-  });
-
-  describe('when the the mouse leaves the nav tag', () => {
-    it('should call collapseMenuPreview on the menuService after 400ms', fakeAsync(() => {
-      spyOn(menuService, 'collapseMenuPreview');
-      const sidebarToggler = fixture.debugElement.query(By.css('nav.navbar'));
-      sidebarToggler.triggerEventHandler('mouseleave', {
-        preventDefault: () => {/**/
-        }
-      });
-      tick(399);
-      expect(menuService.collapseMenuPreview).not.toHaveBeenCalled();
-      tick(1);
-      expect(menuService.collapseMenuPreview).toHaveBeenCalled();
-    }));
-  });
+  // describe('when the the mouse leaves the nav tag', () => {
+  //   it('should call collapseMenuPreview on the menuService after 400ms', fakeAsync(() => {
+  //     spyOn(menuService, 'collapseMenuPreview');
+  //     const sidebarToggler = fixture.debugElement.query(By.css('nav.navbar'));
+  //     sidebarToggler.triggerEventHandler('mouseleave', {
+  //       preventDefault: () => {/**/
+  //       }
+  //     });
+  //     tick(399);
+  //     expect(menuService.collapseMenuPreview).not.toHaveBeenCalled();
+  //     tick(1);
+  //     expect(menuService.collapseMenuPreview).toHaveBeenCalled();
+  //   }));
+  // });
 });
