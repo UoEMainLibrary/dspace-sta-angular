@@ -227,7 +227,7 @@ describe('ThumbnailComponent', () => {
 
         fixture.detectChanges();
         const image: HTMLElement = fixture.debugElement.query(By.css('img')).nativeElement;
-        expect(image.getAttribute('alt')).toBe('TRANSLATED ' + comp.alt);
+        expect(image.getAttribute('alt')).toBe('TRANSLATED ' + comp.alt + ' for PDF');
       });
     });
 
@@ -240,7 +240,7 @@ describe('ThumbnailComponent', () => {
 
         fixture.detectChanges();
         const placeholder = fixture.debugElement.query(By.css('div.thumbnail-placeholder')).nativeElement;
-        expect(placeholder.innerHTML).toContain('TRANSLATED ' + comp.placeholder + ' for PDF');
+        expect(placeholder.innerHTML).toContain('TRANSLATED ' + comp.placeholder);
       });
     });
   });
