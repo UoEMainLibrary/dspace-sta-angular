@@ -3489,7 +3489,7 @@
   // "login.form.header": "Please log in to DSpace",
   "login.form.header": "Log a-steach gu DSpace",
 
-  // "login.form.new-user": "New user? Register here.",
+  // "login.form.new-user": "New user? Click here to register.",
   "login.form.new-user": "Neach-cleachdaidh ùr? Cliog an seo agus clàraich.",
 
   // "login.form.or-divider": "or",
@@ -3867,20 +3867,20 @@
   // "mydspace.show.workspace": "Your Submissions",
   "mydspace.show.workspace": "Do Chur-a-steachan",
 
-  // "mydspace.status.archived": "Archived",
-  "mydspace.status.archived": "San Tasglann",
+  // "mydspace.status.mydspaceArchived": "Archived",
+  "mydspace.status.mydspaceArchived": "San Tasglann",
 
-  // "mydspace.status.validation": "Validation",
-  "mydspace.status.validation": "Dearbhadh",
+  // "mydspace.status.mydspaceValidation": "Validation",
+  "mydspace.status.mydspaceValidation": "Dearbhadh",
 
-  // "mydspace.status.waiting-for-controller": "Waiting for controller",
-  "mydspace.status.waiting-for-controller": "A' feitheamh riaghladair",
+  // "mydspace.status.mydspaceWaitingController": "Waiting for controller",
+  "mydspace.status.mydspaceWaitingController": "A' feitheamh riaghladair",
 
-  // "mydspace.status.workflow": "Workflow",
-  "mydspace.status.workflow": "Sruth-obrach",
+  // "mydspace.status.mydspaceWorkflow": "Workflow",
+  "mydspace.status.mydspaceWorkflow": "Sruth-obrach",
 
-  // "mydspace.status.workspace": "Workspace",
-  "mydspace.status.workspace": "Raon-obrach",
+  // "mydspace.status.mydspaceWorkspace": "Workspace",
+  "mydspace.status.mydspaceWorkspace": "Raon-obrach",
 
   // "mydspace.title": "MyDSpace",
   "mydspace.title": "MoDSpace",
