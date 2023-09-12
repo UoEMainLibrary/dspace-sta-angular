@@ -21,9 +21,23 @@ button.btn.btn-secondary.active,
 span.fas.fa-list, span.fas.fa-th-large {
     color: #fff;
 }
+.btn-success { 
+    background-color: #108916;
+}
+.button-row.top.d-flex.my-2.space-children-mr.ml-gap span,
+.button-row.top.d-flex.mt-2.space-children-mr span {
+    color: #fff;
+}
 
 .simple-view-element {
     border-bottom: 1px dashed #c6c8c9!important;
+}
+
+.admin-menu-header h4 {
+    color: #fff;
+}
+.sidebar-section span {
+    color: #fff;
 }
 
 // imports the base global style
