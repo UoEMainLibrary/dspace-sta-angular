@@ -162,12 +162,14 @@ import { AboutComponent} from './app/info/about/about.component';
 import { AccessibilityComponent} from './app/info/accessibility/accessibility.component';
 import { FaqsComponent } from './app/info/faqs/faqs.component';
 import { HelpComponent } from './app/info/help/help.component';
+import { UnavailableComponent } from './app/info/unavailable/unavailable.component';
 
 const DECLARATIONS = [
   AboutComponent,
   AccessibilityComponent,
   FaqsComponent,
   HelpComponent,
+  UnavailableComponent,
   FileSectionComponent,
   HomePageComponent,
   RootComponent,

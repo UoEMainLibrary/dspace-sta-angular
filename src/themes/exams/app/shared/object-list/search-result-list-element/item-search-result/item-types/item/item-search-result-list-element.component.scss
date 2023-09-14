@@ -18,7 +18,8 @@
     margin-right: 10px;
 }
 
-.dwnld-container {
+.dwnld-container, 
+.unavail-container {
     height: 5rem;
 }
 .dwnld-container a {
@@ -27,6 +28,11 @@
     background: #186599;
     padding: 5px 25px;
     border-radius: 5px;
+    white-space: nowrap;
+}
+.unavail-container a {
+    line-height: 5rem;
+    padding: 5px 25px;
     white-space: nowrap;
 }
 .dwnld-container a:hover {

@@ -28,12 +28,17 @@
             </span>
         </ds-truncatable>
     </div>
-    <div class="dwnld-container col-sm-3">
+    <div *ngIf="dso.firstMetadataValue('dc.format.original') !== undefined &&
+            dso.firstMetadataValue('dc.format.original').includes('pdf'); 
+            else unavailable" class="dwnld-container col-sm-3"> 
         <a href="#">Download Paper <i class="fa fa-download" aria-hidden="true"></i></a>
+        <!-- <ds-themed-file-download-link [bitstream]="file" [item]="item">
+            {{"item.page.filesection.download" | translate}}
+        </ds-themed-file-download-link> -->
     </div>
-    <!-- <div class="meta-container col-sm-9">
-        <p [innerHTML]="dso.firstMetadataValue('dc.description.provenance')"></p>
-    </div> -->
+    <ng-template #unavailable>
+        <div class="unavail-container col-sm-3"> 
+            <a routerLink="/info/unavailable">Paper Unavailable <i class="fa fa-ban" aria-hidden="true"></i></a>
+        </div>
+    </ng-template>
 </div>
-
-<!-- *ngIf="firstMetadataValue('dc.description.provenance').includes('pdf')"  .indexOf('pdf') -->

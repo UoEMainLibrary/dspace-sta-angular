@@ -7,6 +7,7 @@ export const ACCESSIBILITY_PATH = 'accessibility';
 export const ABOUT_PATH = 'about';
 export const FAQS_PATH = 'faqs';
 export const HELP_PATH = 'help';
+export const UNAVAILABLE_PATH = 'unavailable';
 
 export function getEndUserAgreementPath() {
     return getSubPath(END_USER_AGREEMENT_PATH);
@@ -34,6 +35,10 @@ export function getFaqsPath() {
 
 export function getHelpPath() {
     return getSubPath(HELP_PATH);
+}
+
+export function getUnavailablePath() {
+    return getSubPath(UNAVAILABLE_PATH);
 }
 
 function getSubPath(path: string) {
