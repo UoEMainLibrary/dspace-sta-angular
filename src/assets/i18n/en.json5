@@ -1897,6 +1897,8 @@
 
   "info.help.breadcrumbs": "Help",
 
+  "info.unavailable.breadcrumbs": "Unavailable",
+
   "info.feedback.page_help": "Tha page related to your feedback",
 
   "item.alerts.private": "This item is non-discoverable",
