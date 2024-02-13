@@ -1891,11 +1891,28 @@
   //custom
   "info.about.breadcrumbs": "About",
 
+  "info.about.head": "About",
+
+  "info.about.title": "About",
+
   "info.accessibility.breadcrumbs": "Accessibility",
+
+  "info.accessibility.head": "Accessibility",
+
+  "info.accessibility.title": "Accessibility",
 
   "info.faqs.breadcrumbs": "FAQs",
 
+  "info.faqs.head": "FAQs",
+
+  "info.faqs.title": "FAQs",
+
   "info.help.breadcrumbs": "Help",
+
+  "info.help.head": "Help",
+
+  "info.help.title": "Help",
+  //custom
 
   "info.unavailable.breadcrumbs": "Unavailable",
 
