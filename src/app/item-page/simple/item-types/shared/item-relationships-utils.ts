@@ -5,7 +5,8 @@ import { RemoteData } from '../../../../core/data/remote-data';
 import { Relationship } from '../../../../core/shared/item-relationships/relationship.model';
 import { Item } from '../../../../core/shared/item.model';
 import {
-  getFirstCompletedRemoteData
+  getFirstSucceededRemoteDataPayload,
+  getFirstSucceededRemoteData
 } from '../../../../core/shared/operators';
 import { hasValue } from '../../../../shared/empty.util';
 import { InjectionToken } from '@angular/core';
@@ -76,42 +77,24 @@ export const relationsToItems = (thisId: string) =>
  * @param {string} thisId       The item's id of which the relations belong to
  * @returns {(source: Observable<Relationship[]>) => Observable<Item[]>}
  */
-export const paginatedRelationsToItems = (thisId: string) => (source: Observable<RemoteData<PaginatedList<Relationship>>>): Observable<RemoteData<PaginatedList<Item>>> =>
+export const paginatedRelationsToItems = (thisId: string) =>
+  (source: Observable<RemoteData<PaginatedList<Relationship>>>): Observable<RemoteData<PaginatedList<Item>>> =>
     source.pipe(
-      getFirstCompletedRemoteData(),
+      getFirstSucceededRemoteData(),
       switchMap((relationshipsRD: RemoteData<PaginatedList<Relationship>>) => {
         return observableCombineLatest(
           relationshipsRD.payload.page.map((rel: Relationship) =>
             observableCombineLatest([
-              rel.leftItem.pipe(
-                getFirstCompletedRemoteData(),
-                map((rd: RemoteData<Item>) => {
-                  if (rd.hasSucceeded) {
-                    return rd.payload;
-                  } else {
-                    return null;
-                  }
-                })
-              ),
-              rel.rightItem.pipe(
-                getFirstCompletedRemoteData(),
-                map((rd: RemoteData<Item>) => {
-                  if (rd.hasSucceeded) {
-                    return rd.payload;
-                  } else {
-                    return null;
-                  }
-                })
-              ),
-              ]
+              rel.leftItem.pipe(getFirstSucceededRemoteDataPayload()),
+              rel.rightItem.pipe(getFirstSucceededRemoteDataPayload())]
             )
-          )
-        ).pipe(
+          )).pipe(
           map((arr) =>
-            arr.map(([leftItem, rightItem]) => {
-                if (hasValue(leftItem) && leftItem.id === thisId) {
+            arr
+              .map(([leftItem, rightItem]) => {
+                if (leftItem.id === thisId) {
                   return rightItem;
-                } else if (hasValue(rightItem) && rightItem.id === thisId) {
+                } else if (rightItem.id === thisId) {
                   return leftItem;
                 }
               })

@@ -3402,7 +3402,7 @@
 
   // "item.page.author": "Authors",
   // TODO New key - Add a translation
-  "item.page.author": "School",
+  "item.page.author": "Authors",
 
   // "item.page.citation": "Citation",
   // TODO New key - Add a translation
@@ -3478,7 +3478,7 @@
 
   // "item.page.relationships.isOrgUnitOfPerson": "Authors",
   // TODO New key - Add a translation
-  "item.page.relationships.isOrgUnitOfPerson": "School",
+  "item.page.relationships.isOrgUnitOfPerson": "Authors",
 
   // "item.page.relationships.isOrgUnitOfProject": "Research Projects",
   // TODO New key - Add a translation
@@ -3514,7 +3514,7 @@
 
   // "item.preview.dc.contributor.author": "Authors:",
   // TODO New key - Add a translation
-  "item.preview.dc.contributor.author": "School:",
+  "item.preview.dc.contributor.author": "Authors:",
 
   // "item.preview.dc.date.issued": "Published date:",
   // TODO New key - Add a translation
@@ -4276,25 +4276,25 @@
   // TODO New key - Add a translation
   "mydspace.show.workspace": "Your Submissions",
 
-  // "mydspace.status.mydspaceArchived": "Archived",
+  // "mydspace.status.archived": "Archived",
   // TODO New key - Add a translation
-  "mydspace.status.mydspaceArchived": "Archived",
+  "mydspace.status.archived": "Archived",
 
-  // "mydspace.status.mydspaceValidation": "Validation",
+  // "mydspace.status.validation": "Validation",
   // TODO New key - Add a translation
-  "mydspace.status.mydspaceValidation": "Validation",
+  "mydspace.status.validation": "Validation",
 
-  // "mydspace.status.mydspaceWaitingController": "Waiting for controller",
+  // "mydspace.status.waiting-for-controller": "Waiting for controller",
   // TODO New key - Add a translation
-  "mydspace.status.mydspaceWaitingController": "Waiting for controller",
+  "mydspace.status.waiting-for-controller": "Waiting for controller",
 
-  // "mydspace.status.mydspaceWorkflow": "Workflow",
+  // "mydspace.status.workflow": "Workflow",
   // TODO New key - Add a translation
-  "mydspace.status.mydspaceWorkflow": "Workflow",
+  "mydspace.status.workflow": "Workflow",
 
-  // "mydspace.status.mydspaceWorkspace": "Workspace",
+  // "mydspace.status.workspace": "Workspace",
   // TODO New key - Add a translation
-  "mydspace.status.mydspaceWorkspace": "Workspace",
+  "mydspace.status.workspace": "Workspace",
 
   // "mydspace.title": "MyDSpace",
   // TODO New key - Add a translation
@@ -5005,7 +5005,7 @@
 
   // "relationships.isAuthorOf": "Authors",
   // TODO New key - Add a translation
-  "relationships.isAuthorOf": "School",
+  "relationships.isAuthorOf": "Authors",
 
   // "relationships.isAuthorOf.Person": "Authors (persons)",
   // TODO New key - Add a translation
@@ -5033,7 +5033,7 @@
 
   // "relationships.isPersonOf": "Authors",
   // TODO New key - Add a translation
-  "relationships.isPersonOf": "School",
+  "relationships.isPersonOf": "Authors",
 
   // "relationships.isProjectOf": "Research Projects",
   // TODO New key - Add a translation
@@ -6113,7 +6113,7 @@
 
   // "submission.sections.describe.relationship-lookup.title.isAuthorOfPublication": "Authors",
   // TODO New key - Add a translation
-  "submission.sections.describe.relationship-lookup.title.isAuthorOfPublication": "School",
+  "submission.sections.describe.relationship-lookup.title.isAuthorOfPublication": "Authors",
 
   // "submission.sections.describe.relationship-lookup.title.isFundingAgencyOfPublication": "Funding Agency",
   // TODO New key - Add a translation
@@ -6128,7 +6128,7 @@
 
   // "submission.sections.describe.relationship-lookup.title.Person": "Authors",
   // TODO New key - Add a translation
-  "submission.sections.describe.relationship-lookup.title.Person": "School",
+  "submission.sections.describe.relationship-lookup.title.Person": "Authors",
 
   // "submission.sections.describe.relationship-lookup.title.OrgUnit": "Organizational Units",
   // TODO New key - Add a translation
