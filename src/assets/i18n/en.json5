@@ -1830,11 +1830,11 @@
 
   "home.description": "",
 
-  "home.breadcrumbs": "Exam Papers",
+  "home.breadcrumbs": "Home",
 
   "home.search-form.placeholder": "Search the repository ...",
 
-  "home.title": "Exam Papers",
+  "home.title": "Home",
 
   "home.top-level-communities.head": "Communities in DSpace",
 
@@ -1887,34 +1887,6 @@
   "info.feedback.error.message.required": "A comment is required",
 
   "info.feedback.page-label": "Page",
-
-  //custom
-  "info.about.breadcrumbs": "About",
-
-  "info.about.head": "About",
-
-  "info.about.title": "About",
-
-  "info.accessibility.breadcrumbs": "Accessibility",
-
-  "info.accessibility.head": "Accessibility",
-
-  "info.accessibility.title": "Accessibility",
-
-  "info.faqs.breadcrumbs": "FAQs",
-
-  "info.faqs.head": "FAQs",
-
-  "info.faqs.title": "FAQs",
-
-  "info.help.breadcrumbs": "Help",
-
-  "info.help.head": "Help",
-
-  "info.help.title": "Help",
-  //custom
-
-  "info.unavailable.breadcrumbs": "Unavailable",
 
   "info.feedback.page_help": "Tha page related to your feedback",
 
@@ -2402,7 +2374,7 @@
 
   "item.page.abstract": "Abstract",
 
-  "item.page.author": "School",
+  "item.page.author": "Authors",
 
   "item.page.citation": "Citation",
 
@@ -2448,7 +2420,7 @@
 
   "item.page.relationships.isJournalOfPublication": "Publications",
 
-  "item.page.relationships.isOrgUnitOfPerson": "School",
+  "item.page.relationships.isOrgUnitOfPerson": "Authors",
 
   "item.page.relationships.isOrgUnitOfProject": "Research Projects",
 
@@ -2476,7 +2448,7 @@
 
   "item.preview.dc.identifier.uri": "Identifier:",
 
-  "item.preview.dc.contributor.author": "School:",
+  "item.preview.dc.contributor.author": "Authors:",
 
   "item.preview.dc.date.issued": "Published date:",
 
@@ -2530,7 +2502,7 @@
 
   "item.select.empty": "No items to show",
 
-  "item.select.table.author": "School",
+  "item.select.table.author": "Author",
 
   "item.select.table.collection": "Collection",
 
@@ -3522,7 +3494,7 @@
 
   "repository.title": "DSpace Repository",
 
-  "repository.title.prefix": "Exam Papers :: ",
+  "repository.title.prefix": "DSpace Repository :: ",
 
   "resource-policies.add.button": "Add",
 
@@ -3648,7 +3620,7 @@
 
   "search.search-form.placeholder": "Search the repository ...",
 
-  "search.filters.applied.f.author": "School",
+  "search.filters.applied.f.author": "Author",
 
   "search.filters.applied.f.dateIssued.max": "End date",
 
@@ -3680,11 +3652,11 @@
 
   "search.filters.applied.f.withdrawn": "Withdrawn",
 
-  "search.filters.filter.author.head": "School",
+  "search.filters.filter.author.head": "Author",
 
-  "search.filters.filter.author.placeholder": "School",
+  "search.filters.filter.author.placeholder": "Author name",
 
-  "search.filters.filter.author.label": "Search by school",
+  "search.filters.filter.author.label": "Search author name",
 
   "search.filters.filter.birthDate.head": "Birth Date",
 
@@ -3840,16 +3812,6 @@
 
   "search.filters.discoverable.false": "Yes",
 
-  "search.filters.namedresourcetype.Archived": "Archived",
-
-  "search.filters.namedresourcetype.Validation": "Validation",
-
-  "search.filters.namedresourcetype.Waiting for Controller": "Waiting for Controller",
-
-  "search.filters.namedresourcetype.Workflow": "Workflow",
-
-  "search.filters.namedresourcetype.Workspace": "Workspace",
-
   "search.filters.withdrawn.true": "Yes",
 
   "search.filters.withdrawn.false": "No",
@@ -3859,20 +3821,6 @@
   "search.filters.reset": "Reset filters",
 
   "search.filters.search.submit": "Submit",
-
-  // Custom
-  "search.filters.filter.datetemporal.head": "Year",
-
-  "search.filters.filter.datetemporal.label": "Year",
-
-  "search.filters.filter.datetemporal.placeholder": "Search by year",
-
-  "search.filters.filter.title.head": "Title",
-
-  "search.filters.filter.title.placeholder": "Title",
-
-  "search.filters.filter.title.label": "Search by title",
-  //
 
   "search.form.search": "Search",
 
@@ -3920,9 +3868,9 @@
 
   "sorting.DESC": "Descending",
 
-  "sorting.dc.title.ASC": "Title A-Z",
+  "sorting.dc.title.ASC": "Title Ascending",
 
-  "sorting.dc.title.DESC": "Title Z-A",
+  "sorting.dc.title.DESC": "Title Descending",
 
   "sorting.score.ASC": "Least Relevant",
 
@@ -3932,9 +3880,9 @@
 
   "sorting.dc.date.issued.DESC": "Date Issued Descending",
 
-  "sorting.dc.date.accessioned.ASC": "Accademic Year Oldest",
+  "sorting.dc.date.accessioned.ASC": "Accessioned Date Ascending",
 
-  "sorting.dc.date.accessioned.DESC": "Accademic Year Newest",
+  "sorting.dc.date.accessioned.DESC": "Accessioned Date Descending",
 
   "sorting.lastModified.ASC": "Last modified Ascending",
 

@@ -8,7 +8,7 @@ import { TranslateModule } from '@ngx-translate/core';
 
 import { AlertComponent } from './alert.component';
 import { createTestComponent } from '../testing/utils.test';
-import { AlertType } from './alert-type';
+import { AlertType } from './aletr-type';
 
 describe('AlertComponent test suite', () => {
 
