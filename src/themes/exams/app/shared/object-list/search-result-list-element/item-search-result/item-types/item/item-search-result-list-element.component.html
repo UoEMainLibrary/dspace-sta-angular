@@ -28,13 +28,11 @@
             </span>
         </ds-truncatable>
     </div>
+    <!-- custom download link -->
     <div *ngIf="dso.firstMetadataValue('dc.format.original') !== undefined &&
             dso.firstMetadataValue('dc.format.original').includes('pdf');
             else unavailable" class="dwnld-container col-sm-3">
-        <a class="TEST" [routerLink]="[examPaperLink]">Download Paper <i class="fa fa-download" aria-hidden="true"></i></a>
-        <!-- <ds-themed-file-download-link [bitstream]="file" [item]="item">
-            {{"item.page.filesection.download" | translate}}
-        </ds-themed-file-download-link> -->
+        <a [routerLink]="[examPaperLink]">Download Paper <i class="fa fa-download" aria-hidden="true"></i></a>
     </div>
     <ng-template #unavailable>
         <div class="unavail-container col-sm-3">
