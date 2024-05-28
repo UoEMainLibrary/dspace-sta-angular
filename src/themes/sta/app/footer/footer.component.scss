@@ -16,37 +16,37 @@
         margin: 0;
       }
   
-      div > img {
-        height: var(--ds-footer-logo-height);
-      }
+      // div > img {
+      //   height: var(--ds-footer-logo-height);
+      // }
   
   
-      .top-footer {
-        background-color: var(--ds-top-footer-bg);
-        padding: var(--ds-footer-padding);
-        margin: calc(var(--ds-footer-padding) * -1);
-      }
+      // .top-footer {
+      //   background-color: var(--ds-top-footer-bg);
+      //   padding: var(--ds-footer-padding);
+      //   margin: calc(var(--ds-footer-padding) * -1);
+      // }
   
-      .bottom-footer {
-        ul {
-          li {
-            display: inline-flex;
+      // .bottom-footer {
+      //   ul {
+      //     li {
+      //       display: inline-flex;
   
-            a {
-              padding: 0 calc(var(--bs-spacer) / 2);
-              color: inherit
-            }
+      //       a {
+      //         padding: 0 calc(var(--bs-spacer) / 2);
+      //         color: inherit
+      //       }
   
-            &:not(:last-child) {
-              &:after {
-                content: '';
-                border-right: 1px var(--bs-secondary) solid;
-              }
+      //       &:not(:last-child) {
+      //         &:after {
+      //           content: '';
+      //           border-right: 1px var(--bs-secondary) solid;
+      //         }
   
-            }
-          }
-        }
-      }
+      //       }
+      //     }
+      //   }
+      // }
     }
   }
   
