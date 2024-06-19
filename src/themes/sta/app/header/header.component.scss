@@ -1,21 +1,35 @@
+
+header {
+  margin-bottom: 10px;
+}
+
 .sta-header {
   margin-top: 1rem;
+  margin-left: -2rem;
+  margin-right: -2rem;
   background-color: #ffffff;
 }
 
 .sta-logo {
   height: 6rem;
+  width: 12rem;
+  margin-right: -10rem; 
 }
 
 
 .sta-repository-header {
   display: flex;
   align-items: center;
-  background-color: #428bca;
+  background-color: #0088cc;
   color: white;
   height: 6rem;
   font-family: "Crimson Text", serif;
-  font-size: 2.5rem;
+  font-size: 2rem;
+  line-height: 1.33;
+  text-align: center;
+  text-decoration: underline;
+  vertical-align: middle;
+  white-space: nowrap;
 
   .oblique {
     border-bottom: 8rem solid #fff;
@@ -28,13 +42,15 @@
   }
 }
 
+.sta-repository-header:hover {
+  background-color: #005580 !important;
+}
+
 a:hover.sta-repository-header,
 a:focus.sta-repository-header {
   background-color: #007AB8;
-  text-decoration: underline;
-  border-bottom: 1px dotted #ffff;
+  text-decoration: none;
 }
-
 
 //  .sta-header h1 {
 // .sta-header h1 {
