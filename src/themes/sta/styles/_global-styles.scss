@@ -25,12 +25,12 @@ a:link,
 a:visited,
 a {
   color: #428bca;
+  text-decoration: underline;
 }
 
 a:hover,
 a:focus {
   text-decoration: none;
-  border-bottom: 1px dotted #428bca;
   color: #428bca;
 }
 
@@ -46,6 +46,28 @@ li[ds-navbar-section] {
   }
 }
 
+// custom
+a.dropdown-toggle.px-1,
+a.dropdown-toggle.dropdownLogin.px-1 {
+  cursor: pointer;
+  color: #fff;
+}
+
+.btn {
+  background-color: #007AB8;
+}
+.btn i, .btn span {
+  color: #ffffff;
+}
+.btn-link {
+  padding-left: 5px !important;
+  padding-right: 5px !important;
+}
+
+.badge-info {
+  background-color: #014a6e;
+  font-size: 12px;
+}
 
 // tables
 // fixing/replacing full item page table for divs
