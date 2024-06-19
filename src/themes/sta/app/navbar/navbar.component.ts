@@ -10,8 +10,8 @@ import { slideMobileNav } from '../../../../app/shared/animations/slide';
   // styleUrls: ['./navbar.component.scss'],
   styleUrls: ['../../../../app/navbar/navbar.component.scss',
     './navbar.component.scss'],
-  // templateUrl: './navbar.component.html',
-  templateUrl: '../../../../app/navbar/navbar.component.html',
+  templateUrl: './navbar.component.html',
+  // templateUrl: '../../../../app/navbar/navbar.component.html',
   animations: [slideMobileNav]
 })
 export class NavbarComponent extends BaseComponent {
