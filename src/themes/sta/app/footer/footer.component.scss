@@ -1,13 +1,14 @@
 :host {
     footer {
-      background-color: var(--ds-footer-bg);
+      background-color: #202024;
+      border-top: 5px solid #6a6a6b;
+      border-bottom: solid 7rem #1a1a1d;
       text-align: left;
       z-index: var(--ds-footer-z-index);
-      border-top: var(--ds-footer-border);
       padding: var(--ds-footer-padding);
   
       .sta-footer-content {
-        background-color: var(--ds-top-footer-bg);
+        
         margin-top: -1rem;
         margin-bottom: -1rem;
       }
@@ -16,6 +17,13 @@
         margin: 0;
       }
   
+      .container.sta-footer-content.sta-footer-content-lower {
+        margin-top: 1rem;
+        margin-bottom: -7rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        background-color: #1a1a1d;
+    }
       // div > img {
       //   height: var(--ds-footer-logo-height);
       // }
