@@ -2380,6 +2380,10 @@
 
   "item.page.author": "Authors",
 
+  // custom
+  "item.page.supervisor": "Supervisors",
+  // custom end
+
   "item.page.citation": "Citation",
 
   "item.page.collections": "Collections",
