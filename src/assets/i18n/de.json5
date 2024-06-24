@@ -4589,10 +4589,10 @@
   // "sorting.DESC": "Descending",
   "sorting.DESC": "Absteigend",
 
-  // "sorting.dc.title.ASC": "Title Ascending",
+  // "sorting.dc.title.ASC": "Title A-Z",
   "sorting.dc.title.ASC": "Titel aufsteigend",
 
-  // "sorting.dc.title.DESC": "Title Descending",
+  // "sorting.dc.title.DESC": "Title Z-A",
   "sorting.dc.title.DESC": "Titel absteigend",
 
   // "sorting.score.ASC": "Least Relevant",
@@ -4607,10 +4607,10 @@
   // "sorting.dc.date.issued.DESC": "Date Issued Descending",
   "sorting.dc.date.issued.DESC": "Erscheinungsdatum absteigend",
 
-  // "sorting.dc.date.accessioned.ASC": "Accessioned Date Ascending",
+  // "sorting.dc.date.accessioned.ASC": "Oldest",
   "sorting.dc.date.accessioned.ASC": "Freischaltungsdatum aufsteigend",
 
-  // "sorting.dc.date.accessioned.DESC": "Accessioned Date Descending",
+  // "sorting.dc.date.accessioned.DESC": "Newest",
   "sorting.dc.date.accessioned.DESC": "Freischaltungsdatum absteigend",
 
   // "sorting.lastModified.ASC": "Last modified Ascending",

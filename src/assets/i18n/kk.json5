@@ -5409,10 +5409,10 @@
   // "sorting.DESC": "Descending",
   "sorting.DESC": "Төмен",
 
-  // "sorting.dc.title.ASC": "Title Ascending",
+  // "sorting.dc.title.ASC": "Title A-Z",
   "sorting.dc.title.ASC": "Өсу бойынша тақырып",
 
-  // "sorting.dc.title.DESC": "Title Descending",
+  // "sorting.dc.title.DESC": "Title Z-A",
   "sorting.dc.title.DESC": "Кему тақырыбы",
 
   // "sorting.score.ASC": "Least Relevant",
@@ -5427,10 +5427,10 @@
   // "sorting.dc.date.issued.DESC": "Date Issued Descending",
   "sorting.dc.date.issued.DESC": "Кему бойынша шығарылған күні",
 
-  // "sorting.dc.date.accessioned.ASC": "Accessioned Date Ascending",
+  // "sorting.dc.date.accessioned.ASC": "Oldest",
   "sorting.dc.date.accessioned.ASC": "Өсу бойынша қол жеткізу күні",
 
-  // "sorting.dc.date.accessioned.DESC": "Accessioned Date Descending",
+  // "sorting.dc.date.accessioned.DESC": "Newest",
   "sorting.dc.date.accessioned.DESC": "Кему бойынша қол жеткізу күні",
 
   // "sorting.lastModified.ASC": "Last modified Ascending",

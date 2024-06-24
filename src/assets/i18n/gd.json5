@@ -5046,10 +5046,10 @@
   // "sorting.DESC": "Descending",
   "sorting.DESC": "A' teàrnadh",
 
-  // "sorting.dc.title.ASC": "Title Ascending",
+  // "sorting.dc.title.ASC": "Title A-Z",
   "sorting.dc.title.ASC": "Tiotalan a' Dìreadh",
 
-  // "sorting.dc.title.DESC": "Title Descending",
+  // "sorting.dc.title.DESC": "Title Z-A",
   "sorting.dc.title.DESC": "Tiotalan a' Teàrnadh",
 
   // "sorting.score.ASC": "Least Relevant",
@@ -5064,10 +5064,10 @@
   // "sorting.dc.date.issued.DESC": "Date Issued Descending",
   "sorting.dc.date.issued.DESC": "Dèit Cur-a-mach a' Teàrnadh",
 
-  // "sorting.dc.date.accessioned.ASC": "Accessioned Date Ascending",
+  // "sorting.dc.date.accessioned.ASC": "Oldest",
   "sorting.dc.date.accessioned.ASC": "Deit Cuir-ris a' Dìreadh",
 
-  // "sorting.dc.date.accessioned.DESC": "Accessioned Date Descending",
+  // "sorting.dc.date.accessioned.DESC": "Newest",
   "sorting.dc.date.accessioned.DESC": "Deit Cuir-ris a' Teàrnadh",
 
   // "sorting.lastModified.ASC": "Last modified Ascending",

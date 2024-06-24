@@ -4308,10 +4308,10 @@
   // "sorting.DESC": "Descending",
   "sorting.DESC": "Azalan",
 
-  // "sorting.dc.title.ASC": "Title Ascending",
+  // "sorting.dc.title.ASC": "Title A-Z",
   "sorting.dc.title.ASC": "Artan Başlıklar",
 
-  // "sorting.dc.title.DESC": "Title Descending",
+  // "sorting.dc.title.DESC": "Title Z-A",
   "sorting.dc.title.DESC": "Azalan Başlıklar",
 
   // "sorting.score.DESC": "Relevance",

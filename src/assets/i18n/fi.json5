@@ -5757,10 +5757,10 @@
   // "sorting.DESC": "Descending",
   "sorting.DESC": "Nouseva",
 
-  // "sorting.dc.title.ASC": "Title Ascending",
+  // "sorting.dc.title.ASC": "Title A-Z",
   "sorting.dc.title.ASC": "Nimeke (A-Ö)",
 
-  // "sorting.dc.title.DESC": "Title Descending",
+  // "sorting.dc.title.DESC": "Title Z-A",
   "sorting.dc.title.DESC": "Nimeke (Ö-A)",
 
   // "sorting.score.ASC": "Least Relevant",
@@ -5775,10 +5775,10 @@
   // "sorting.dc.date.issued.DESC": "Date Issued Descending",
   "sorting.dc.date.issued.DESC": "Julkaisuaika laskeva",
 
-  // "sorting.dc.date.accessioned.ASC": "Accessioned Date Ascending",
+  // "sorting.dc.date.accessioned.ASC": "Oldest",
   "sorting.dc.date.accessioned.ASC": "Hyväksymispäivä nouseva",
 
-  // "sorting.dc.date.accessioned.DESC": "Accessioned Date Descending",
+  // "sorting.dc.date.accessioned.DESC": "Newest",
   "sorting.dc.date.accessioned.DESC": "Hyväksymispäivä laskeva",
 
   // "sorting.lastModified.ASC": "Last modified Ascending",

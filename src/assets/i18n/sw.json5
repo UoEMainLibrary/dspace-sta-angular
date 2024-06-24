@@ -5663,13 +5663,13 @@
   // TODO New key - Add a translation
   "sorting.DESC": "Descending",
 
-  // "sorting.dc.title.ASC": "Title Ascending",
+  // "sorting.dc.title.ASC": "Title A-Z",
   // TODO New key - Add a translation
-  "sorting.dc.title.ASC": "Title Ascending",
+  "sorting.dc.title.ASC": "Title A-Z",
 
-  // "sorting.dc.title.DESC": "Title Descending",
+  // "sorting.dc.title.DESC": "Title Z-A",
   // TODO New key - Add a translation
-  "sorting.dc.title.DESC": "Title Descending",
+  "sorting.dc.title.DESC": "Title Z-A",
 
   // "sorting.score.DESC": "Relevance",
   // TODO New key - Add a translation

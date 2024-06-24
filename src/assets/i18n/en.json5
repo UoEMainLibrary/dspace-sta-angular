@@ -774,19 +774,27 @@
 
   "browse.back.all-results": "All browse results",
 
-  "browse.comcol.by.author": "By Author",
+  "browse.comcol.by.author": "Names",
 
   "browse.comcol.by.dateissued": "By Issue Date",
 
-  "browse.comcol.by.subject": "By Subject",
+  "browse.comcol.by.subject": "Subjects",
 
   "browse.comcol.by.srsc": "By Subject Category",
 
   "browse.comcol.by.nsi": "By Norwegian Science Index",
 
-  "browse.comcol.by.title": "By Title",
+  "browse.comcol.by.title": "Titles",
 
   "browse.comcol.head": "Browse",
+
+  // custom
+  "browse.comcol.by.classification": "Classification",
+
+  "browse.comcol.by.type": "Type",
+
+  "browse.comcol.by.funder": "Funder",
+  // custom end
 
   "browse.empty": "No items to show.",
 
@@ -2838,6 +2846,14 @@
 
   "menu.section.browse_global_communities_and_collections": "Communities & Collections",
 
+  // custom
+  "menu.section.browse_global_by_classification": "By Classification",
+
+  "menu.section.browse_global_by_type": "By Type",
+
+  "menu.section.browse_global_by_funder": "By Funder",
+  // cutom end
+
   "menu.section.control_panel": "Control Panel",
 
   "menu.section.curation_task": "Curation Task",
@@ -3886,9 +3902,9 @@
 
   "sorting.DESC": "Descending",
 
-  "sorting.dc.title.ASC": "Title Ascending",
+  "sorting.dc.title.ASC": "Title A-Z",
 
-  "sorting.dc.title.DESC": "Title Descending",
+  "sorting.dc.title.DESC": "Title Z-A",
 
   "sorting.score.ASC": "Least Relevant",
 
@@ -3898,9 +3914,9 @@
 
   "sorting.dc.date.issued.DESC": "Date Issued Descending",
 
-  "sorting.dc.date.accessioned.ASC": "Accessioned Date Ascending",
+  "sorting.dc.date.accessioned.ASC": "Oldest",
 
-  "sorting.dc.date.accessioned.DESC": "Accessioned Date Descending",
+  "sorting.dc.date.accessioned.DESC": "Newest",
 
   "sorting.lastModified.ASC": "Last modified Ascending",
 

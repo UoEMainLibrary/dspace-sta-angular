@@ -4525,10 +4525,10 @@
 
   "sorting.DESC": "У порядку зменшення",
 
-  // "sorting.dc.title.ASC": "Title Ascending",
+  // "sorting.dc.title.ASC": "Title A-Z",
   "sorting.dc.title.ASC": "У порядку збільшення за назвою",
 
-  // "sorting.dc.title.DESC": "Title Descending",
+  // "sorting.dc.title.DESC": "Title Z-A",
   "sorting.dc.title.DESC": "У порядку зменшення за назвою",
 
   // "sorting.score.DESC": "Relevance",
