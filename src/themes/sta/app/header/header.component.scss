@@ -3,24 +3,28 @@ header {
   margin-bottom: 10px;
 }
 
-.sta-header {
+.header-background {
+  background-color: #0088cc;
+  height: 5rem;
+  position: absolute;
+  z-index: -1;
   margin-top: 1rem;
-  margin-left: -2rem;
-  margin-right: -2rem;
-  background-color: #ffffff;
+  left: -50%;
+  transform: skewX(-12deg);
+}
+.header-background:hover{
+  background-color: #005580 !important;
 }
 
 .sta-logo {
-  height: 6rem;
-  width: 12rem;
-  margin-right: -10rem; 
+  width: 35%;
+  margin-top: 1.75rem;
 }
 
 
 .sta-repository-header {
   display: flex;
   align-items: center;
-  background-color: #0088cc;
   color: white;
   height: 6rem;
   font-family: "Crimson Text", serif;
@@ -30,6 +34,7 @@ header {
   text-decoration: underline;
   vertical-align: middle;
   white-space: nowrap;
+  margin-top: .4rem;
 
   .oblique {
     border-bottom: 8rem solid #fff;
@@ -42,13 +47,9 @@ header {
   }
 }
 
-.sta-repository-header:hover {
-  background-color: #005580 !important;
-}
 
 a:hover.sta-repository-header,
 a:focus.sta-repository-header {
-  background-color: #007AB8;
   text-decoration: none;
 }
 
