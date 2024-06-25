@@ -53,8 +53,13 @@ a.dropdown-toggle.dropdownLogin.px-1 {
   color: #fff;
 }
 
+.page-link {
+  text-decoration: none!important;
+}
+
 .btn {
   background-color: #007AB8;
+  color: #fff!important;
 }
 .btn i, .btn span {
   color: #ffffff;
@@ -63,12 +68,30 @@ a.dropdown-toggle.dropdownLogin.px-1 {
   padding-left: 5px !important;
   padding-right: 5px !important;
 }
+a.btn.btn-outline-primary {
+  text-decoration: none;
+}
+.btn-outline-primary.disabled, 
+.btn-outline-primary:disabled {
+  background-color: #007AB8;
+}
 
 .badge-info {
   background-color: #014a6e;
   font-size: 12px;
 }
 
+.card-header > .btn {
+  background-color: transparent;
+}
+.card-header > .btn span {
+  color: #212529;
+}
+
+
+.btn-outline-primary {
+  color: #fff;
+}
 // tables
 // fixing/replacing full item page table for divs
 .div-table-head {

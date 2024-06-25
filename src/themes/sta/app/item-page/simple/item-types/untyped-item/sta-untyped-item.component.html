@@ -6,6 +6,7 @@
                    [searchable]="iiifSearchEnabled"
                    [query]="iiifQuery$ | async">
     </ds-mirador-viewer>
+    <h1>HEY</h1>
   </div>
 </div>
 
@@ -16,11 +17,11 @@
 </div>
 <div class="row">
   <div class="col-xs-12 col-md-4">
-    <ng-container *ngIf="!(mediaViewer.image || mediaViewer.video)">
+    <!-- <ng-container *ngIf="!(mediaViewer.image || mediaViewer.video)">
       <ds-metadata-field-wrapper [hideIfNoTextContent]="false">
         <ds-themed-thumbnail [thumbnail]="object?.thumbnail | async"></ds-themed-thumbnail>
       </ds-metadata-field-wrapper>
-    </ng-container>
+    </ng-container> -->
     <div *ngIf="mediaViewer.image || mediaViewer.video" class="mb-2">
       <ds-themed-media-viewer [item]="object"></ds-themed-media-viewer>
     </div>
