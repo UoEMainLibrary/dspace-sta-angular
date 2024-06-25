@@ -1,6 +1,13 @@
 .comcol-browse a {
     color: #333;
 }
+.comcol-browse a:hover{
+    background-color: #e6e6e6;
+}
 .comcol-browse .list-group-item.active {
     color: #fff;
+    text-decoration: none;
+}
+.comcol-browse .list-group-item.active:hover {
+    background-color: #2B4E72;
 }
