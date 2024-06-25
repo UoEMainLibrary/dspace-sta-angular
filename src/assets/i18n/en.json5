@@ -798,15 +798,23 @@
 
   "browse.empty": "No items to show.",
 
-  "browse.metadata.author": "Author",
+  "browse.metadata.author": "Authors",
 
   "browse.metadata.dateissued": "Issue Date",
 
-  "browse.metadata.subject": "Subject",
+  "browse.metadata.subject": "Subjects",
 
-  "browse.metadata.title": "Title",
+  "browse.metadata.title": "Titles",
 
-  "browse.metadata.author.breadcrumbs": "Browse by Author",
+  // custom
+  "browse.metadata.classification": "Classification",
+
+  "browse.metadata.type": "Type",
+
+  "browse.metadata.funder": "Funder",
+  // custom end
+
+  "browse.metadata.author.breadcrumbs": "Browse by Namer",
 
   "browse.metadata.dateissued.breadcrumbs": "Browse by Date",
 
@@ -817,6 +825,14 @@
   "browse.metadata.nsi.breadcrumbs": "Browse by Norwegian Science Index",
 
   "browse.metadata.title.breadcrumbs": "Browse by Title",
+
+  // custom
+  "browse.metadata.classification.breadcrumbs": "Browse by Classification",
+
+  "browse.metadata.type.breadcrumbs": "Browse by Type",
+
+  "browse.metadata.funder.breadcrumbs": "Browse by Funder",
+  // custom end
 
   "pagination.next.button": "Next",
 
@@ -2824,34 +2840,34 @@
 
   "menu.section.browse_community": "This Community",
 
-  "menu.section.browse_community_by_author": "By Author",
+  "menu.section.browse_community_by_author": "Name",
 
   "menu.section.browse_community_by_issue_date": "By Issue Date",
 
-  "menu.section.browse_community_by_title": "By Title",
+  "menu.section.browse_community_by_title": "Titles",
 
   "menu.section.browse_global": "All of DSpace",
 
-  "menu.section.browse_global_by_author": "By Author",
+  "menu.section.browse_global_by_author": "Name",
 
   "menu.section.browse_global_by_dateissued": "By Issue Date",
 
-  "menu.section.browse_global_by_subject": "By Subject",
+  "menu.section.browse_global_by_subject": "Subjects",
 
   "menu.section.browse_global_by_srsc": "By Subject Category",
 
   "menu.section.browse_global_by_nsi": "By Norwegian Science Index",
 
-  "menu.section.browse_global_by_title": "By Title",
+  "menu.section.browse_global_by_title": "Titles",
 
   "menu.section.browse_global_communities_and_collections": "Communities & Collections",
 
   // custom
-  "menu.section.browse_global_by_classification": "By Classification",
+  "menu.section.browse_global_by_classification": "Classification",
 
-  "menu.section.browse_global_by_type": "By Type",
+  "menu.section.browse_global_by_type": "Type",
 
-  "menu.section.browse_global_by_funder": "By Funder",
+  "menu.section.browse_global_by_funder": "Funder",
   // cutom end
 
   "menu.section.control_panel": "Control Panel",
