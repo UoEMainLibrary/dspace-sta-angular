@@ -24,7 +24,7 @@ header {
 .sta-repository-header {
   display: flex;
   align-items: center;
-  color: white;
+  color: #0088cc;
   height: 6rem;
   font-family: "Crimson Text", serif;
   font-size: 2rem;
@@ -34,16 +34,6 @@ header {
   vertical-align: middle;
   white-space: nowrap;
   margin-top: .4rem;
-
-  .oblique {
-    border-bottom: 8rem solid #fff;
-    border-left: 4rem solid transparent;
-    height: 0;
-    position: absolute;
-    right: -1px;
-    top: -2px;
-    width: 0;
-  }
 }
 
 a:hover.sta-repository-header,
