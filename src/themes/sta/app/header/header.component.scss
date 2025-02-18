@@ -1,0 +1,42 @@
+
+header {
+  margin-bottom: 10px;
+}
+
+.header-background {
+  background-color: #0088cc;
+  height: 5rem;
+  position: absolute;
+  z-index: -1;
+  margin-top: 1rem;
+  left: -50%;
+  transform: skewX(-20deg);
+}
+.header-background:hover{
+  background-color: #005580 !important;
+}
+
+.sta-logo {
+  width: 35%;
+  margin-top: 1.75rem;
+}
+
+.sta-repository-header {
+  display: flex;
+  align-items: center;
+  color: #0088cc;
+  height: 6rem;
+  font-family: "Crimson Text", serif;
+  font-size: 2rem;
+  line-height: 1.33;
+  text-align: center;
+  text-decoration: underline;
+  vertical-align: middle;
+  white-space: nowrap;
+  margin-top: .4rem;
+}
+
+a:hover.sta-repository-header,
+a:focus.sta-repository-header {
+  text-decoration: none;
+}
