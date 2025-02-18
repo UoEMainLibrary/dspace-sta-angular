@@ -1,16 +1,12 @@
+import { waitForAsync, ComponentFixture, TestBed } from '@angular/core/testing';
+
+import { StatisticsTableComponent } from './statistics-table.component';
+import { UsageReport } from '../../core/statistics/models/usage-report.model';
 import { DebugElement } from '@angular/core';
-import {
-  ComponentFixture,
-  TestBed,
-  waitForAsync,
-} from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
 import { TranslateModule } from '@ngx-translate/core';
-
-import { DSONameService } from '../../core/breadcrumbs/dso-name.service';
 import { DSpaceObjectDataService } from '../../core/data/dspace-object-data.service';
-import { UsageReport } from '../../core/statistics/models/usage-report.model';
-import { StatisticsTableComponent } from './statistics-table.component';
+import { DSONameService } from '../../core/breadcrumbs/dso-name.service';
 
 describe('StatisticsTableComponent', () => {
 
@@ -22,6 +18,8 @@ describe('StatisticsTableComponent', () => {
     TestBed.configureTestingModule({
       imports: [
         TranslateModule.forRoot(),
+      ],
+      declarations: [
         StatisticsTableComponent,
       ],
       providers: [
@@ -29,7 +27,7 @@ describe('StatisticsTableComponent', () => {
         { provide: DSONameService, useValue: {} },
       ],
     })
-      .compileComponents();
+    .compileComponents();
   }));
 
   beforeEach(() => {
@@ -71,8 +69,8 @@ describe('StatisticsTableComponent', () => {
               views: 8,
               downloads: 8,
             },
-          },
-        ],
+          }
+        ]
       });
       component.ngOnInit();
       fixture.detectChanges();
@@ -80,20 +78,20 @@ describe('StatisticsTableComponent', () => {
 
     it ('should display a table with the correct data', () => {
 
-      expect(de.query(By.css('table'))).toBeTruthy();
+      expect(de.query(By.css('div.table'))).toBeTruthy();
 
-      expect(de.query(By.css('th.views-header')).nativeElement.innerText)
+      expect(de.query(By.css('div.views-header')).nativeElement.innerText)
         .toEqual('views');
-      expect(de.query(By.css('th.downloads-header')).nativeElement.innerText)
+      expect(de.query(By.css('div.downloads-header')).nativeElement.innerText)
         .toEqual('downloads');
 
-      expect(de.query(By.css('td.item_1-views-data')).nativeElement.innerText)
+      expect(de.query(By.css('div.item_1-views-data')).nativeElement.innerText)
         .toEqual('7');
-      expect(de.query(By.css('td.item_1-downloads-data')).nativeElement.innerText)
+      expect(de.query(By.css('div.item_1-downloads-data')).nativeElement.innerText)
         .toEqual('4');
-      expect(de.query(By.css('td.item_2-views-data')).nativeElement.innerText)
+      expect(de.query(By.css('div.item_2-views-data')).nativeElement.innerText)
         .toEqual('8');
-      expect(de.query(By.css('td.item_2-downloads-data')).nativeElement.innerText)
+      expect(de.query(By.css('div.item_2-downloads-data')).nativeElement.innerText)
         .toEqual('8');
     });
   });
