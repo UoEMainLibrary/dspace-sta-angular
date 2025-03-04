@@ -58,6 +58,11 @@
                 "input": "src/themes/dspace/styles/theme.scss",
                 "inject": false,
                 "bundleName": "dspace-theme"
+              },
+              {
+                "input": "src/themes/sta/styles/theme.scss",
+                "inject": false,
+                "bundleName": "sta-theme"
               }
             ],
             "scripts": [],
@@ -153,6 +158,11 @@
                 "input": "src/styles/base-theme.scss",
                 "inject": false,
                 "bundleName": "base-theme"
+              },
+              {
+                "input": "src/sta/styles/base-theme.scss",
+                "inject": false,
+                "bundleName": "sta-theme"
               }
             ],
             "scripts": []

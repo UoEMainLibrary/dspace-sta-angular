@@ -3125,7 +3125,7 @@
   // "login.form.header": "Please log in to DSpace",
   "login.form.header": "Lūdzu pieslēdzieties DSpace",
 
-  // "login.form.new-user": "New user? Click here to register.",
+  // "login.form.new-user": "New user? Register here.",
   "login.form.new-user": "Jauns lietotājs? Noklikšķiniet šeit, lai reģistrētos.",
 
   // "login.form.or-divider": "or",
@@ -4688,10 +4688,10 @@
   // TODO New key - Add a translation
   "sorting.DESC": "Descending",
 
-  // "sorting.dc.title.ASC": "Title Ascending",
+  // "sorting.dc.title.ASC": "Title A-Z",
   "sorting.dc.title.ASC": "Nosaukums augošā secībā",
 
-  // "sorting.dc.title.DESC": "Title Descending",
+  // "sorting.dc.title.DESC": "Title Z-A",
   "sorting.dc.title.DESC": "Nosaukums dilstošā secībā",
 
   // "sorting.score.DESC": "Relevance",

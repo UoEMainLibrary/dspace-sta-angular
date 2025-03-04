@@ -276,8 +276,8 @@ describe('ThumbnailComponent', () => {
         it('should include the alt text', () => {
           comp.ngOnChanges({});
           fixture.detectChanges();
-          const image: HTMLElement = fixture.debugElement.query(By.css('img')).nativeElement;
-          expect(image.getAttribute('alt')).toBe('TRANSLATED ' + comp.alt);
+          const image: HTMLElement = de.query(By.css('img')).nativeElement;
+          expect(image.getAttribute('alt')).toBe('TRANSLATED ' + comp.alt + ' for PDF');
         });
       });
 

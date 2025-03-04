@@ -17,7 +17,7 @@ export class ThemedItemPageComponent extends ThemedComponent<ItemPageComponent> 
   }
 
   protected importThemedComponent(themeName: string): Promise<any> {
-    return import(`../../../themes/${themeName}/app/item-page/simple/item-page.component`);
+    return import(`../../../themes/${themeName}/app/item-page/simple/sta-item-page.component`);
   }
 
   protected importUnthemedComponent(): Promise<any> {

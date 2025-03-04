@@ -4571,7 +4571,7 @@
   // "login.form.header": "Please log in to DSpace",
   "login.form.header": "Lépjen be a DSpace-re",
 
-  // "login.form.new-user": "New user? Click here to register.",
+  // "login.form.new-user": "New user? Register here.",
   "login.form.new-user": "Új felhasználó? Regisztráljon.",
 
   // "login.form.or-divider": "or",
@@ -6404,10 +6404,10 @@
   // "sorting.DESC": "Descending",
   "sorting.DESC": "Csökkenő",
 
-  // "sorting.dc.title.ASC": "Title Ascending",
+  // "sorting.dc.title.ASC": "Title A-Z",
   "sorting.dc.title.ASC": "Cím növekvő sorrendben",
 
-  // "sorting.dc.title.DESC": "Title Descending",
+  // "sorting.dc.title.DESC": "Title Z-A",
   "sorting.dc.title.DESC": "Cím csökkenő sorrendben",
 
   // "sorting.score.ASC": "Least Relevant",
@@ -6422,10 +6422,10 @@
   // "sorting.dc.date.issued.DESC": "Date Issued Descending",
   "sorting.dc.date.issued.DESC": "Megjelenés dátuma szerint csökkenő",
 
-  // "sorting.dc.date.accessioned.ASC": "Accessioned Date Ascending",
+  // "sorting.dc.date.accessioned.ASC": "Oldest",
   "sorting.dc.date.accessioned.ASC": "Hozzáférés dátuma szerint növekvő",
 
-  // "sorting.dc.date.accessioned.DESC": "Accessioned Date Descending",
+  // "sorting.dc.date.accessioned.DESC": "Newest",
   "sorting.dc.date.accessioned.DESC": "Hozzáférés dátuma szerint csökkenő",
 
   // "sorting.lastModified.ASC": "Last modified Ascending",

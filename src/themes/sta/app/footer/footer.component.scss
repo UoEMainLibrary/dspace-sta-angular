@@ -1,0 +1,25 @@
+:host {
+    .footer-top {
+      background-color: #202024;
+      border-top: 5px solid #6a6a6b;
+      text-align: left;
+      z-index: var(--ds-footer-z-index);
+      padding-bottom: 0px!important;
+      
+  
+      p {
+        margin: 0;
+      }
+    }
+}
+footer.text-md-start.py-3.footer-lower {
+  background-color: #1a1a1d!important;
+  border-top: 1px solid #4b4b4b;
+  color: #aaa;
+}
+.sta-copyright p {
+  margin: 0px 0px 0px -2rem;
+}
+.sta-socials a {
+  margin: 0px 10px 0px -9rem;
+}

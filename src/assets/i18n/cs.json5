@@ -7417,10 +7417,10 @@
   // "sorting.DESC": "Descending",
   "sorting.DESC": "Sestupně",
 
-  // "sorting.dc.title.ASC": "Title Ascending",
+  // "sorting.dc.title.ASC": "Title A-Z",
   "sorting.dc.title.ASC": "Název vzestupně",
 
-  // "sorting.dc.title.DESC": "Title Descending",
+  // "sorting.dc.title.DESC": "Title Z-A",
   "sorting.dc.title.DESC": "Název sestupně",
 
   // "sorting.score.ASC": "Least Relevant",
