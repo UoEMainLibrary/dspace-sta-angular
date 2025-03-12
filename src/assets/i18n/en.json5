@@ -2404,10 +2404,6 @@
 
   "item.page.author": "Authors",
 
-  // custom
-  "item.page.supervisor": "Supervisors",
-  // custom end
-
   "item.page.citation": "Citation",
 
   "item.page.collections": "Collections",
@@ -2478,6 +2474,22 @@
 
   "item.page.claim.tooltip": "Claim this item as profile",
 
+  // custom
+  "item.page.supervisor": "Supervisors",
+
+  "item.page.publication": "Publication",
+
+  "item.page.status": "Status",
+
+  "item.page.doi": "Related resources",
+
+  "item.page.type": "Type",
+
+  "item.page.rightsUri": "Rights",
+
+  "item.page.descriptionRelated": "Description of related resources",
+  // custom end
+  
   "item.preview.dc.identifier.uri": "Identifier:",
 
   "item.preview.dc.contributor.author": "Authors:",
@@ -3529,6 +3541,12 @@
   "relationships.isContributorOf.Person": "Contributor",
 
   "relationships.isFundingAgencyOf.OrgUnit": "Funder",
+
+  // custom 
+  "relationships.isAdvisorOf": "Supervisor",
+
+  "relationships.isSponsorOf": "Funder",
+  // custom end
 
   "repository.image.logo": "Repository logo",
 
