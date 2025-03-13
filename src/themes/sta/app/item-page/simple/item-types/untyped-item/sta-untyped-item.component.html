@@ -6,7 +6,6 @@
                    [searchable]="iiifSearchEnabled"
                    [query]="iiifQuery$ | async">
     </ds-mirador-viewer>
-    <h1>HEY</h1>
   </div>
 </div>
 
@@ -17,11 +16,11 @@
 </div>
 <div class="row">
   <div class="col-xs-12 col-md-4">
-    <!-- <ng-container *ngIf="!(mediaViewer.image || mediaViewer.video)">
+    <ng-container *ngIf="!(mediaViewer.image || mediaViewer.video)">
       <ds-metadata-field-wrapper [hideIfNoTextContent]="false">
         <ds-themed-thumbnail [thumbnail]="object?.thumbnail | async"></ds-themed-thumbnail>
       </ds-metadata-field-wrapper>
-    </ng-container> -->
+    </ng-container>
     <div *ngIf="mediaViewer.image || mediaViewer.video" class="mb-2">
       <ds-themed-media-viewer [item]="object"></ds-themed-media-viewer>
     </div>
@@ -45,11 +44,12 @@
       [metadataFields]="['dc.contributor.sponsor']"
       [label]="'relationships.isSponsorOf' | translate">
     </ds-themed-metadata-representation-list>
-    <ds-generic-item-page-field [item]="object"
-      [fields]="['dc.subject']"
-      [separator]="', '"
-      [label]="'item.page.subject'">
-    </ds-generic-item-page-field>
+    <ds-themed-metadata-representation-list class="ds-item-page-mixed-author-field"
+      [parentItem]="object"
+      [itemType]="'Subject'"
+      [metadataFields]="['dc.subject']"
+      [label]="'item.page.subject' | translate">
+    </ds-themed-metadata-representation-list>
   </div>
   <div class="col-xs-12 col-md-6">
     <ds-item-page-abstract-field [item]="object"></ds-item-page-abstract-field>
@@ -68,12 +68,13 @@
     <ds-item-page-uri-field [item]="object"
       [fields]="['dc.identifier.doi']"
       [label]="'item.page.doi'">
+      https://doi.org/
     </ds-item-page-uri-field>
     <ds-generic-item-page-field [item]="object"
       [fields]="['journal.identifier.issn']"
       [label]="'item.page.journal-issn'">
     </ds-generic-item-page-field>
-    <ds-generic-item-page-field [item]="object"
+      <ds-generic-item-page-field [item]="object"
       [fields]="['dc.type']"
       [label]="'item.page.type'">
     </ds-generic-item-page-field>
