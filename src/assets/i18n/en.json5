@@ -2475,6 +2475,8 @@
   "item.page.claim.tooltip": "Claim this item as profile",
 
   // custom
+  "item.page.url": "URL",
+
   "item.page.supervisor": "Supervisors",
 
   "item.page.publication": "Publication",

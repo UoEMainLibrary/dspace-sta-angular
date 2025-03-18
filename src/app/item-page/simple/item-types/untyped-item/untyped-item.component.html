@@ -45,6 +45,10 @@
       [label]="'relationships.isSponsorOf' | translate">
     </ds-themed-metadata-representation-list>
     <ds-generic-item-page-field [item]="object"
+      [fields]="['dc.contributor.sponsor']"
+      [label]="'relationships.isSponsorOf'">
+    </ds-generic-item-page-field>
+    <ds-generic-item-page-field [item]="object"
       [fields]="['dc.subject']"
       [label]="'item.page.subject'">
     </ds-generic-item-page-field>
@@ -88,6 +92,10 @@
       [fields]="['dc.relation']"
       [label]="'item.page.descriptionRelated'">
     </ds-generic-item-page-field>
+    <ds-item-page-uri-field [item]="object"
+      [fields]="['dc.identifier.url']"
+      [label]="'item.page.uri'">
+    </ds-item-page-uri-field>
     <ds-item-page-uri-field [item]="object"
       [fields]="['dc.identifier.uri']"
       [label]="'item.page.uri'">
