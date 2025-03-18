@@ -6,6 +6,7 @@
                    [searchable]="iiifSearchEnabled"
                    [query]="iiifQuery$ | async">
     </ds-mirador-viewer>
+    <h1>TESTAROO</h1>
   </div>
 </div>
 
@@ -43,12 +44,6 @@
       [itemType]="'Person'"
       [metadataFields]="['dc.contributor.sponsor']"
       [label]="'relationships.isSponsorOf' | translate">
-    </ds-themed-metadata-representation-list>
-    <ds-themed-metadata-representation-list class="ds-item-page-mixed-author-field"
-      [parentItem]="object"
-      [itemType]="'Person'"
-      [metadataFields]="['dc.subject']"
-      [label]="'item.page.subject' | translate">
     </ds-themed-metadata-representation-list>
     <ds-generic-item-page-field [item]="object"
       [fields]="['dc.subject']"

@@ -814,7 +814,7 @@
   "browse.metadata.funder": "Funder",
   // custom end
 
-  "browse.metadata.author.breadcrumbs": "Browse by Namer",
+  "browse.metadata.author.breadcrumbs": "Browse by Auther",
 
   "browse.metadata.dateissued.breadcrumbs": "Browse by Date",
 
@@ -2854,15 +2854,15 @@
 
   "menu.section.browse_community_by_author": "Name",
 
-  "menu.section.browse_community_by_issue_date": "By Issue Date",
+  "menu.section.browse_community_by_issue_date": "Issue Date",
 
   "menu.section.browse_community_by_title": "Titles",
 
   "menu.section.browse_global": "All of DSpace",
 
-  "menu.section.browse_global_by_author": "Name",
+  "menu.section.browse_global_by_author": "Authors",
 
-  "menu.section.browse_global_by_dateissued": "By Issue Date",
+  "menu.section.browse_global_by_dateissued": "Issue Date",
 
   "menu.section.browse_global_by_subject": "Subjects",
 
