@@ -814,7 +814,7 @@
   "browse.metadata.funder": "Funder",
   // custom end
 
-  "browse.metadata.author.breadcrumbs": "Browse by Namer",
+  "browse.metadata.author.breadcrumbs": "Browse by Author",
 
   "browse.metadata.dateissued.breadcrumbs": "Browse by Date",
 
@@ -2404,10 +2404,6 @@
 
   "item.page.author": "Authors",
 
-  // custom
-  "item.page.supervisor": "Supervisors",
-  // custom end
-
   "item.page.citation": "Citation",
 
   "item.page.collections": "Collections",
@@ -2478,6 +2474,24 @@
 
   "item.page.claim.tooltip": "Claim this item as profile",
 
+  // custom
+  "item.page.url": "URL",
+
+  "item.page.supervisor": "Supervisors",
+
+  "item.page.publication": "Publication",
+
+  "item.page.status": "Status",
+
+  "item.page.doi": "Related resources",
+
+  "item.page.type": "Type",
+
+  "item.page.rightsUri": "Rights",
+
+  "item.page.descriptionRelated": "Description of related resources",
+  // custom end
+  
   "item.preview.dc.identifier.uri": "Identifier:",
 
   "item.preview.dc.contributor.author": "Authors:",
@@ -2842,15 +2856,15 @@
 
   "menu.section.browse_community_by_author": "Name",
 
-  "menu.section.browse_community_by_issue_date": "By Issue Date",
+  "menu.section.browse_community_by_issue_date": "Issue Date",
 
   "menu.section.browse_community_by_title": "Titles",
 
   "menu.section.browse_global": "All of DSpace",
 
-  "menu.section.browse_global_by_author": "Name",
+  "menu.section.browse_global_by_author": "Authors",
 
-  "menu.section.browse_global_by_dateissued": "By Issue Date",
+  "menu.section.browse_global_by_dateissued": "Issue Date",
 
   "menu.section.browse_global_by_subject": "Subjects",
 
@@ -3529,6 +3543,12 @@
   "relationships.isContributorOf.Person": "Contributor",
 
   "relationships.isFundingAgencyOf.OrgUnit": "Funder",
+
+  // custom 
+  "relationships.isAdvisorOf": "Supervisor",
+
+  "relationships.isSponsorOf": "Funder",
+  // custom end
 
   "repository.image.logo": "Repository logo",
 
