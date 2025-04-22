@@ -798,7 +798,7 @@
 
   "browse.empty": "No items to show.",
 
-  "browse.metadata.author": "Authors",
+  "browse.metadata.author": "Name",
 
   "browse.metadata.dateissued": "Issue Date",
 
@@ -814,7 +814,7 @@
   "browse.metadata.funder": "Funder",
   // custom end
 
-  "browse.metadata.author.breadcrumbs": "Browse by Author",
+  "browse.metadata.author.breadcrumbs": "Browse by Name",
 
   "browse.metadata.dateissued.breadcrumbs": "Browse by Date",
 
@@ -2402,7 +2402,7 @@
 
   "item.page.abstract": "Abstract",
 
-  "item.page.author": "Authors",
+  "item.page.author": "Author",
 
   "item.page.citation": "Citation",
 
@@ -2494,7 +2494,7 @@
   
   "item.preview.dc.identifier.uri": "Identifier:",
 
-  "item.preview.dc.contributor.author": "Authors:",
+  "item.preview.dc.contributor.author": "Author:",
 
   "item.preview.dc.date.issued": "Published date:",
 
@@ -2854,7 +2854,7 @@
 
   "menu.section.browse_community": "This Community",
 
-  "menu.section.browse_community_by_author": "Name",
+  "menu.section.browse_community_by_author": "Author",
 
   "menu.section.browse_community_by_issue_date": "Issue Date",
 
@@ -2862,7 +2862,7 @@
 
   "menu.section.browse_global": "All of DSpace",
 
-  "menu.section.browse_global_by_author": "Authors",
+  "menu.section.browse_global_by_author": "Author",
 
   "menu.section.browse_global_by_dateissued": "Issue Date",
 
@@ -3044,7 +3044,7 @@
 
   "mydspace.results.no-abstract": "No Abstract",
 
-  "mydspace.results.no-authors": "No Authors",
+  "mydspace.results.no-authors": "No Author",
 
   "mydspace.results.no-collections": "No Collections",
 
@@ -3508,11 +3508,11 @@
 
   "relationships.add.error.title": "Unable to add relationship",
 
-  "relationships.isAuthorOf": "Authors",
+  "relationships.isAuthorOf": "Author",
 
-  "relationships.isAuthorOf.Person": "Authors (persons)",
+  "relationships.isAuthorOf.Person": "Author (persons)",
 
-  "relationships.isAuthorOf.OrgUnit": "Authors (organizational units)",
+  "relationships.isAuthorOf.OrgUnit": "Author (organizational units)",
 
   "relationships.isIssueOf": "Journal Issues",
 
@@ -3522,7 +3522,7 @@
 
   "relationships.isOrgUnitOf": "Organizational Units",
 
-  "relationships.isPersonOf": "Authors",
+  "relationships.isPersonOf": "Author",
 
   "relationships.isProjectOf": "Research Projects",
 
