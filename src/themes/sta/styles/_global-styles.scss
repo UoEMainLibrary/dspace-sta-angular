@@ -3,6 +3,11 @@
 // imports the base global style
 @import '../../../styles/_global-styles.scss';
 
+// Add any global css for the theme here
+
+// imports the base global style
+@import '../../../styles/_global-styles.scss';
+
 :root {
   --ds-navbar-link-color: #428bca;
   --ds-navbar-link-color-hover: #428bca;
@@ -14,10 +19,6 @@
   --ds-footer-bg: black;
   --ds-top-footer-bg: black;
   --ds-footer-border: 0 solid var(--ds-footer-bg);
-}
-
-h2, .h2 {
-    font-size: 2rem;
 }
 
 a:link,
@@ -95,14 +96,12 @@ span.fa.fa-chevron-down {
   color: #212529;
 }
 
-
 .btn-outline-primary {
   color: #fff;
 }
 
-.nav-link {
-  display: block;
-  padding: .5rem 1rem;
+.copyright-notice {
+  margin-top: 15px;
 }
 
 // tables
