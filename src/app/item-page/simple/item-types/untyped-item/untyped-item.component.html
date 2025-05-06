@@ -73,10 +73,11 @@
       [fields]="['dc.type']"
       [label]="'item.page.type'">
     </ds-generic-item-page-field>
-    <ds-item-page-uri-field [item]="object"
-      [fields]="['dc.rights', 'dc.rights.uri']"
+    <ds-multi-item-page-field [item]="object"
+      [fields]="['dc.rights']"
+      [uriFields]="['dc.rights.uri']"
       [label]="'item.page.rightsUri'">
-    </ds-item-page-uri-field>
+    </ds-multi-item-page-field>
     <ds-generic-item-page-field [item]="object"
       [fields]="['dc.description']"
       [label]="'item.page.description'">

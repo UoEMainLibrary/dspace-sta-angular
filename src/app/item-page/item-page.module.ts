@@ -61,6 +61,10 @@ import {
   ThemedFullFileSectionComponent
 } from './full/field-components/file-section/themed-full-file-section.component';
 
+import { CcLicenceComponent } from './cc-licence/cc-licence.component';
+import { MultiItemPageFieldComponent } from './simple/field-components/specific-field/multi/multi-item-page-field.component';
+import { MetadataUriValuesLabellessComponent } from './field-components/metadata-uri-values-labelless/metadata-uri-values-labelless.component';
+
 const ENTRY_COMPONENTS = [
   // put only entry components that use custom decorator
   PublicationComponent,
@@ -68,6 +72,9 @@ const ENTRY_COMPONENTS = [
 ];
 
 const DECLARATIONS = [
+  CcLicenceComponent,
+  MultiItemPageFieldComponent,
+  MetadataUriValuesLabellessComponent,
   FileSectionComponent,
   ThemedFileSectionComponent,
   ItemPageComponent,

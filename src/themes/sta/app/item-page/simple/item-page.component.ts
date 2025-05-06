@@ -15,8 +15,8 @@ import { SharedModule } from '../../../../../app/shared/shared.module';
  */
 @Component({
     selector: 'ds-item-page',
-    // styleUrls: ['./item-page.component.scss'],
-    styleUrls: ['../../../../../app/item-page/simple/item-page.component.scss'],
+    styleUrls: ['./item-page.component.scss'],
+    // styleUrls: ['../../../../../app/item-page/simple/item-page.component.scss'],
     templateUrl: './item-page.component.html',
     // templateUrl: '../../../../../app/item-page/simple/item-page.component.html',
     changeDetection: ChangeDetectionStrategy.OnPush,
