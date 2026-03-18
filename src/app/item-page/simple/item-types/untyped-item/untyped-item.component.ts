@@ -28,6 +28,7 @@ import { ThemedItemPageTitleFieldComponent } from '../../field-components/specif
 import { ItemPageUriFieldComponent } from '../../field-components/specific-field/uri/item-page-uri-field.component';
 import { ThemedMetadataRepresentationListComponent } from '../../metadata-representation-list/themed-metadata-representation-list.component';
 import { ItemComponent } from '../shared/item.component';
+import { MultiItemPageFieldComponent } from "../../field-components/specific-field/multi/multi-item-page-field.component";
 
 /**
  * Component that represents a publication Item page
@@ -60,6 +61,7 @@ import { ItemComponent } from '../shared/item.component';
     AsyncPipe,
     TranslateModule,
     ItemPageCcLicenseFieldComponent,
-  ],
+    MultiItemPageFieldComponent
+],
 })
 export class UntypedItemComponent extends ItemComponent {}
