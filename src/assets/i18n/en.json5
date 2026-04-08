@@ -890,9 +890,9 @@
 
   "browse.taxonomy.button": "Browse",
 
-  "browse.title": "Browsing {{ collection }} by {{ field }}{{ startsWith }} {{ value }}",
+  "browse.title": "Browsing by {{ field }} {{ startsWith }} {{ value }}",
 
-  "browse.title.page": "Browsing {{ collection }} by {{ field }} {{ value }}",
+  "browse.title.page": "Browsing by {{ field }} {{ value }}",
 
   "search.browse.item-back": "Back to Results",
 
@@ -1325,6 +1325,10 @@
   "community.page.news": "News",
 
   "community.all-lists.head": "Subcommunities and Collections",
+
+  "community.search.breadcrumbs": "Search",
+
+  "community.search.results.head": "Search Results",
 
   "community.sub-collection-list.head": "Collections in this Community",
 
