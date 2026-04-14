@@ -5317,8 +5317,8 @@
 
   "menu.section.notifications": "Notifications",
 
-  "suggestion.title": "Publication Claim",
+  "menu.section.notifications_publication-claim": "Publication Claim",
 
-  "suggestion.title.breadcrumbs": "Publication Claim",
+  "menu.section.notifications_publication-claim.breadcrumbs": "Publication Claim",
 
 }
